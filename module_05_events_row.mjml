@@ -1,0 +1,65 @@
+<mj-section padding="0px" border-radius="12px">
+
+  <!-- left -->
+  <mj-column background-color="#0095DE" css-class="rounded" border="2px solid #FF8600" >
+
+    <mj-group>
+
+      <!-- img -->
+      <mj-column vertical-align="middle" width="33%">
+
+        <mj-image src="{{ item[0].img | imgPath }}" alt="{{ item[0].img }}" padding="0px" />
+        
+      </mj-column>
+
+      <!-- title -->
+      <mj-column vertical-align="middle" width="67%">
+
+        <!-- title -->
+        <mj-text color="#ffffff" font-size="15px" font-weight="bold">
+          {{ item[0].title }}
+        </mj-text>
+
+        <!-- author -->
+        <mj-text color="#ffffff" font-size="11px" padding-top="0px">
+          {{ item[0].author }}
+        </mj-text>
+        
+      </mj-column>
+
+    </mj-group>
+      
+  </mj-column>
+
+  <!-- right -->
+  <mj-column background-color="#0095DE" css-class="rounded" border="2px solid #FF8600" >
+
+    <mj-group>
+
+      <!-- img -->
+      <mj-column vertical-align="middle" width="33%">
+
+        <mj-image src="{{ item[1].img | imgPath }}" alt="{{ item[1].img }}" padding="0px" />
+        
+      </mj-column>
+
+      <!-- title -->
+      <mj-column vertical-align="middle" width="67%">
+
+        <!-- title -->
+        <mj-text color="#ffffff" font-size="15px" font-weight="bold">
+          {{ item[1].title }}
+        </mj-text>
+
+        <!-- author -->
+        <mj-text color="#ffffff" font-size="11px" padding-top="0px">
+          {{ item[1].author }}
+        </mj-text>
+        
+      </mj-column>
+
+    </mj-group>
+    
+  </mj-column>
+
+</mj-section>

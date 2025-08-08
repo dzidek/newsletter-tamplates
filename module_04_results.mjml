@@ -1,0 +1,13 @@
+{{ macro.headline( results.headline ) }}
+
+<mj-section>
+  <mj-group>
+
+  {% for item in results.items %}
+  {% include 'module_04_results_box.mjml' %}
+  {% endfor %}
+
+  </mj-group>
+</mj-section>
+
+{% include 'module_line.mjml' %}

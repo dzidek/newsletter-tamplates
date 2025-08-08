@@ -1,0 +1,15 @@
+<mj-column padding="10px" inner-border-radius="12px" inner-border="2px solid #FF8600" css-class="rounded">
+
+  <mj-text color="#FF8600" font-size="20px" font-weight="bold" padding="10px" padding-top="20px">
+    {{ item.title }}
+  </mj-text>
+
+  <mj-text font-size="17px" font-weight="bold" padding="10px">
+    {{ item.subtitle }}
+  </mj-text>
+
+  <mj-text font-size="15px" padding="10px" padding-bottom="20px">
+    {{ item.desc }}
+  </mj-text>
+  
+</mj-column>

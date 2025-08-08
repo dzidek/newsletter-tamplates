@@ -1,0 +1,11 @@
+<mj-column padding="10px" inner-background-color="#184868" inner-border-radius="12px">
+
+  <mj-text color="#ffffff" font-size="11px" padding="10px" padding-top="20px">
+    {{ item.author }}
+  </mj-text>
+
+  <mj-text color="#ffffff" font-size="15px" font-weight="bold" padding="10px" padding-bottom="20px">
+    {{ item.title }}
+  </mj-text>
+  
+</mj-column>

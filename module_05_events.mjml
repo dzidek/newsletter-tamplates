@@ -1,0 +1,7 @@
+{{ macro.headline( events.headline ) }}
+
+{% for item in events.items %}
+{% include 'module_05_events_row.mjml' %}
+{% endfor %}
+
+{% include 'module_line.mjml' %}

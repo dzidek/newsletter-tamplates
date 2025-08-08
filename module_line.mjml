@@ -1,0 +1,6 @@
+<!-- Line -->
+<mj-section>
+  <mj-column>
+    <mj-image src="{{ 'line.png' | imgPath }}" alt="{{ 'line.png' }}" />
+  </mj-column>
+</mj-section>

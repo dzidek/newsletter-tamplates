@@ -1,0 +1,7 @@
+{{ macro.headline( top.headline ) }}
+
+{% for item in top.items %}
+{% include 'module_03_top_box.mjml' %}
+{% endfor %}
+
+{% include 'module_line.mjml' %}

@@ -1,0 +1,24 @@
+<!-- Module_Header -->
+<mj-section>
+
+  <!-- left -->
+  <mj-column>
+
+    <mj-image src="{{ 'logo.png' | imgPath }}" alt="{{ 'logo.png' }}" width="120px" align="left" padding-bottom="30px" />
+
+    <mj-text font-size="30px" font-weight="bold">
+      {{ header.title }}
+    </mj-text>
+    <mj-text font-size="20px" font-weight="bold">
+      <span style="color: #237DC4;">{{ header.nr }}</span>&nbsp;&nbsp;&nbsp;{{ header.date }}
+    </mj-text>
+  </mj-column>
+
+  <!-- right -->
+  <mj-column>
+    <mj-image src="{{ header.heroImg | imgPath }}" alt="{{ header.heroImg }}" align="right" />
+  </mj-column>
+  
+</mj-section>
+
+{% include 'module_line.mjml' %}

@@ -1,0 +1,8 @@
+<!-- Module_Headline -->
+<mj-section>
+  <mj-column>
+    <mj-text font-size="20px">
+      {{ news.headline }}
+    </mj-text>
+  </mj-column>
+</mj-section>

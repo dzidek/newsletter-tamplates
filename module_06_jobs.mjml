@@ -1,0 +1,9 @@
+<mj-section>
+
+  {% for item in jobs.items %}
+  {% include 'module_06_jobs_box.mjml' %}
+  {% endfor %}
+
+</mj-section>
+
+{% include 'module_line.mjml' %}

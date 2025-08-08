@@ -1,0 +1,8 @@
+<!-- description -->
+<mj-column _width="60%">
+
+  <mj-text font-size="12px">
+    {{ item.title }}
+  </mj-text>
+  
+</mj-column>

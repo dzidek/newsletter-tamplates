@@ -1,0 +1,41 @@
+{% import "macros.njk" as macro %}
+
+<mjml lang="pl">
+
+  <mj-head>
+    <mj-attributes>
+      <mj-section padding="10px 20px" />
+      <mj-text line-height="1.4" />
+      <!-- <mj-class name="blue" color="blue" />
+      <mj-class name="big" font-size="20px" /> -->
+      <mj-all font-family="Verdana" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      .rounded > table { border-collapse:separate; border-radius:12px; }
+     </mj-style>
+
+  </mj-head>
+
+  <mj-body width="700px">
+    
+    {# Header #}
+    {% include 'module_01_header.mjml' %}
+
+    {# News #}
+    {% include 'module_02_news.mjml' %}
+
+    {# Top #}
+    {% include 'module_03_top.mjml' %}
+
+    {# Results #}
+    {% include 'module_04_results.mjml' %}
+
+    {# Events #}
+    {% include 'module_05_events.mjml' %}
+
+    {# Jobs #}
+    {% include 'module_06_jobs.mjml' %}
+
+  </mj-body>
+</mjml>

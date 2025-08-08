@@ -1,0 +1,21 @@
+<!-- icon -->
+<mj-column vertical-align="middle" width="15%">
+
+  <mj-image src="{{ item.icon | imgPath }}" alt="{{ item.icon }}" width="60px" />
+  
+</mj-column>
+
+<!-- title -->
+<mj-column vertical-align="middle" width="25%">
+
+  <!-- title -->
+  <mj-text color="#FF8600" font-size="15px" font-weight="bold">
+    {{ item.title }}
+  </mj-text>
+
+  <!-- author -->
+  <mj-text font-size="11px" padding-top="0px">
+    {{ item.author }}
+  </mj-text>
+  
+</mj-column>
